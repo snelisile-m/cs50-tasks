@@ -1,0 +1,62 @@
+ <!-- re-implementation a front end for Google’s homepage -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Google-logo">
+            <img src="images/google-logo.png" alt="Google Logo">
+        </div>
+
+        <!-- The action attribute on the form tells the browser that when the form is 
+        submitted, the data should be sent to https://www.google.com/search. 
+        And by adding an input field to the form whose name attribute was q, 
+        whatever the user types into that input field is included as a GET parameter in 
+        he URL. -->
+
+        <form action="https://www.google.com/search" method="GET">
+            <div class="search-box">
+                <!-- <form action="https://www.google.com/search">
+                    <input type="text" name="q">
+                    <input type="submit" value="Google Search">
+                </form> -->
+
+                <input type="text" name="q" class="search-bar" placeholder="Google Search...">
+                <input type="submit" value="Google Search" class="search-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
+</html> -->

@@ -1,0 +1,64 @@
+/* .container {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    align-items:
+  
+    h2 {
+        font-weight: bold;
+        margin: 0;
+        padding: 0; */
+
+body, h2, label {
+    margin: 0;
+    padding: 0;
+}
+
+.Google-logo img {
+    max-width: 250px;
+}
+
+.search-button, .feeling-lucky-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feeling-lucky-button {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+
+.search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
